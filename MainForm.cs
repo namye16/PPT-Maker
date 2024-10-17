@@ -19,7 +19,7 @@ namespace Worship {
             this.Text = string.Empty;
             this.ControlBox = false;
             this.MaximizedBounds = Screen.FromHandle(this.Handle).WorkingArea;
-            Size = new Size(492, 688);
+            Size = new Size(465, 682);
 
             morningWorshipPPT1.Show();
             openingHymnsPPT1.Hide();
@@ -37,18 +37,18 @@ namespace Worship {
                 if (currentButton != (Button)btnSender) {
                     DisableButton();
                     currentButton = (Button)btnSender;
-                    currentButton.BackColor = Color.FromArgb(39, 39, 46);
-                    currentButton.ForeColor = Color.White;
+                    currentButton.BackColor = Color.White;
+                    currentButton.ForeColor = Color.FromArgb(27, 28, 31);
                     currentButton.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));                    
                 }
             }
         }
-
+        
         private void DisableButton() {
             foreach (Control pre in pnlMenu.Controls) {
                 if(pre.GetType() == typeof(Button)) {
-                    pre.BackColor = Color.FromArgb(58, 58, 66);
-                    pre.ForeColor = Color.White;
+                    pre.BackColor = Color.FromArgb(247, 247, 247);
+                    pre.ForeColor = Color.FromArgb(27, 28, 31);
                     pre.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));                    
                 }
             }
