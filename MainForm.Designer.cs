@@ -55,6 +55,8 @@
             this.pnlTitleBar.Size = new System.Drawing.Size(1395, 29);
             this.pnlTitleBar.TabIndex = 2;
             this.pnlTitleBar.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pnlTitleBar_MouseDown);
+            this.pnlTitleBar.MouseMove += new System.Windows.Forms.MouseEventHandler(this.pnlTitleBar_MouseMove);
+            this.pnlTitleBar.MouseUp += new System.Windows.Forms.MouseEventHandler(this.pnlTitleBar_MouseUp);
             // 
             // btnMaximize
             // 
@@ -103,11 +105,10 @@
             // 
             // lblProgramName
             // 
-            this.lblProgramName.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblProgramName.AutoSize = true;
             this.lblProgramName.Font = new System.Drawing.Font("맑은 고딕", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.lblProgramName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(28)))), ((int)(((byte)(31)))));
-            this.lblProgramName.Location = new System.Drawing.Point(631, 6);
+            this.lblProgramName.Location = new System.Drawing.Point(141, 7);
             this.lblProgramName.Name = "lblProgramName";
             this.lblProgramName.Size = new System.Drawing.Size(133, 17);
             this.lblProgramName.TabIndex = 0;
