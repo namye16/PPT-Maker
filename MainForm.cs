@@ -13,7 +13,8 @@ using System.Windows.Forms;
 namespace Worship {
     public partial class MainForm : Form {
         private Button currentButton;
-        private Form activeForm;
+        bool dragging;
+        int dragStartX, dragStartY;
         public MainForm() {
             InitializeComponent();            
             this.Text = string.Empty;
@@ -24,13 +25,7 @@ namespace Worship {
             morningWorshipPPT1.Show();
             openingHymnsPPT1.Hide();
             choirLyricsInput1.Hide();
-        }
-
-        [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
-        private extern static void ReleaseCapture();
-
-        [DllImport("user32.DLL", EntryPoint = "SendMessage")]
-        private extern static void SendMessage(System.IntPtr hWnd, int wMsg, int wParam, int lParam);
+        }      
 
         private void ClickButton(object btnSender) {
             if (btnSender != null) {
@@ -90,8 +85,18 @@ namespace Worship {
             ClickButton(btnTableOfContents);
         }
         private void pnlTitleBar_MouseDown(object sender, MouseEventArgs e) {
-            ReleaseCapture();
-            SendMessage(this.Handle, 0x112, 0xf012, 0);
+            dragging =  true;
+            dragStartX = e.X;
+            dragStartY = e.Y;
+        }
+        private void pnlTitleBar_MouseMove(object sender, MouseEventArgs e) {
+            if (dragging == true) {
+                this.SetDesktopLocation(MousePosition.X - dragStartX, MousePosition.Y - dragStartY);
+            }
+        }
+
+        private void pnlTitleBar_MouseUp(object sender, MouseEventArgs e) {
+            dragging = false;
         }
 
         private void btnClose_Click(object sender, EventArgs e) {
