@@ -23,10 +23,10 @@ namespace Worship {
         public MorningWorshipPPT() {
             InitializeComponent();
             
-            btnAdd.BackColor = Color.FromArgb(57, 57, 65);
-            btnAdd.ForeColor = Color.White;
-            btnCreate.BackColor = Color.FromArgb(57, 57, 65);
-            btnCreate.ForeColor = Color.White;
+            btnAdd.BackColor = Color.FromArgb(231, 236, 245);
+            btnAdd.ForeColor = Color.FromArgb(27, 28, 31);
+            btnCreate.BackColor = Color.FromArgb(231, 236, 245);
+            btnCreate.ForeColor = Color.FromArgb(27, 28, 31);
 
             Event.txtSearch = txtSearch;
             Event.txtBibleReading = txtBibleReading;
@@ -105,9 +105,7 @@ namespace Worship {
             chkSelectAll.CheckedChanged += new EventHandler(chkSelectAll_CheckedChanged);
             btnCreate.Click += new EventHandler(btnCreate_Click);
             btnAdd.Click += new EventHandler(btnAdd_Click);
-            this.Load += new EventHandler(MainForm_Load);
-
-            
+            this.Load += new EventHandler(MainForm_Load);            
         }
         public void MainForm_Load(object sender, EventArgs e) {
             LoadList.loadChurchPositionList(filePaths.ChurchPositionTxtFilePath, cboChurchPosition);
@@ -230,12 +228,12 @@ namespace Worship {
 
         private void AddBR() {
             TextBox newTextBox = new TextBox();
-            newTextBox.Location = new System.Drawing.Point(142, TextBoxLocationY);
+            newTextBox.Location = new System.Drawing.Point(158, TextBoxLocationY);
             newTextBox.Size = new Size(244, 23);
             newTextBox.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             newTextBox.BorderStyle = BorderStyle.FixedSingle;
-            newTextBox.BackColor = Color.FromArgb(27, 28, 31);
-            newTextBox.ForeColor = Color.White;
+            newTextBox.BackColor = Color.White;
+            newTextBox.ForeColor = Color.FromArgb(27, 28, 31);
             panel2.Controls.Add(newTextBox);
             textBoxBR.Add(newTextBox);
 
@@ -246,7 +244,7 @@ namespace Worship {
 
         private void AddS() {
             TextBox newTextBox = new TextBox();
-            newTextBox.Location = new System.Drawing.Point(56, TextBoxLocationY);
+            newTextBox.Location = new System.Drawing.Point(72, TextBoxLocationY);
             newTextBox.Size = new Size(79, 23);
             newTextBox.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             newTextBox.BorderStyle = BorderStyle.FixedSingle;
