@@ -26,15 +26,17 @@
             this.label1 = new System.Windows.Forms.Label();
             this.rtbLyricsText = new System.Windows.Forms.RichTextBox();
             this.btnAdd = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(46)))));
+            this.label1.BackColor = System.Drawing.Color.White;
             this.label1.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(43, 21);
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(28)))), ((int)(((byte)(31)))));
+            this.label1.Location = new System.Drawing.Point(43, 18);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(345, 15);
             this.label1.TabIndex = 6;
@@ -42,14 +44,14 @@
             // 
             // rtbLyricsText
             // 
-            this.rtbLyricsText.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(28)))), ((int)(((byte)(31)))));
+            this.rtbLyricsText.BackColor = System.Drawing.Color.White;
             this.rtbLyricsText.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.rtbLyricsText.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.rtbLyricsText.ForeColor = System.Drawing.Color.White;
+            this.rtbLyricsText.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(28)))), ((int)(((byte)(31)))));
             this.rtbLyricsText.ImeMode = System.Windows.Forms.ImeMode.Hangul;
-            this.rtbLyricsText.Location = new System.Drawing.Point(38, 50);
+            this.rtbLyricsText.Location = new System.Drawing.Point(41, 46);
             this.rtbLyricsText.Name = "rtbLyricsText";
-            this.rtbLyricsText.Size = new System.Drawing.Size(417, 403);
+            this.rtbLyricsText.Size = new System.Drawing.Size(382, 403);
             this.rtbLyricsText.TabIndex = 4;
             this.rtbLyricsText.Text = "ex)나 같은 죄인 살리신\n주 은혜 고마와\n\n나 처음 믿은 그 시간\n귀하고 귀하다\n";
             // 
@@ -59,25 +61,35 @@
             this.btnAdd.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnAdd.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.btnAdd.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnAdd.Location = new System.Drawing.Point(385, 464);
+            this.btnAdd.Location = new System.Drawing.Point(353, 471);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(70, 23);
             this.btnAdd.TabIndex = 5;
             this.btnAdd.Text = "첨부";
             this.btnAdd.UseVisualStyleBackColor = true;
             // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Controls.Add(this.btnAdd);
+            this.panel1.Controls.Add(this.rtbLyricsText);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(465, 682);
+            this.panel1.TabIndex = 7;
+            // 
             // ChoirLyricsInput
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(28)))), ((int)(((byte)(31)))));
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.rtbLyricsText);
-            this.Controls.Add(this.btnAdd);
+            this.BackColor = System.Drawing.Color.White;
+            this.Controls.Add(this.panel1);
             this.Name = "ChoirLyricsInput";
-            this.Size = new System.Drawing.Size(492, 682);
+            this.Size = new System.Drawing.Size(465, 682);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -86,5 +98,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.RichTextBox rtbLyricsText;
         private System.Windows.Forms.Button btnAdd;
+        private System.Windows.Forms.Panel panel1;
     }
 }
