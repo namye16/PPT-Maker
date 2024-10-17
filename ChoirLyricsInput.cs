@@ -18,8 +18,8 @@ namespace Worship {
             InitializeComponent();
             btnAdd.Click += new EventHandler(btnAdd_Click);
             rtbLyricsText.MouseDown += new MouseEventHandler(Event.ClearText);
-            btnAdd.BackColor = Color.FromArgb(57, 57, 65);
-            btnAdd.ForeColor = Color.White;
+            btnAdd.BackColor = Color.FromArgb(231, 236, 245);
+            btnAdd.ForeColor = Color.FromArgb(27, 28, 31);
         }
         private void btnAdd_Click(object sender, EventArgs e) {
             string text = rtbLyricsText.Text;
