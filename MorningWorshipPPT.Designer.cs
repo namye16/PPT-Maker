@@ -36,6 +36,7 @@
             this.txtWorshipPraise = new System.Windows.Forms.TextBox();
             this.cboChurchPosition = new System.Windows.Forms.ComboBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.chkFrequentlyUsedItems = new System.Windows.Forms.CheckBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.chkBibleReading = new System.Windows.Forms.CheckBox();
             this.txtCurrentBibleReading = new System.Windows.Forms.TextBox();
@@ -64,7 +65,6 @@
             this.btnCreate = new System.Windows.Forms.Button();
             this.txtBibleReading = new System.Windows.Forms.TextBox();
             this.txtSearch = new System.Windows.Forms.TextBox();
-            this.chkFrequentlyUsedItems = new System.Windows.Forms.CheckBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -74,8 +74,8 @@
             // 
             this.chkpreparationScreen.AutoSize = true;
             this.chkpreparationScreen.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.chkpreparationScreen.ForeColor = System.Drawing.Color.White;
-            this.chkpreparationScreen.Location = new System.Drawing.Point(46, 80);
+            this.chkpreparationScreen.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(28)))), ((int)(((byte)(31)))));
+            this.chkpreparationScreen.Location = new System.Drawing.Point(62, 80);
             this.chkpreparationScreen.Name = "chkpreparationScreen";
             this.chkpreparationScreen.Size = new System.Drawing.Size(74, 19);
             this.chkpreparationScreen.TabIndex = 67;
@@ -86,8 +86,8 @@
             // 
             this.chkCreed.AutoSize = true;
             this.chkCreed.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.chkCreed.ForeColor = System.Drawing.Color.White;
-            this.chkCreed.Location = new System.Drawing.Point(46, 167);
+            this.chkCreed.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(28)))), ((int)(((byte)(31)))));
+            this.chkCreed.Location = new System.Drawing.Point(62, 167);
             this.chkCreed.Name = "chkCreed";
             this.chkCreed.Size = new System.Drawing.Size(74, 19);
             this.chkCreed.TabIndex = 66;
@@ -98,8 +98,8 @@
             // 
             this.chkOpeningHymn.AutoSize = true;
             this.chkOpeningHymn.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.chkOpeningHymn.ForeColor = System.Drawing.Color.White;
-            this.chkOpeningHymn.Location = new System.Drawing.Point(46, 109);
+            this.chkOpeningHymn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(28)))), ((int)(((byte)(31)))));
+            this.chkOpeningHymn.Location = new System.Drawing.Point(62, 109);
             this.chkOpeningHymn.Name = "chkOpeningHymn";
             this.chkOpeningHymn.Size = new System.Drawing.Size(74, 19);
             this.chkOpeningHymn.TabIndex = 65;
@@ -110,8 +110,8 @@
             // 
             this.chkPrayer.AutoSize = true;
             this.chkPrayer.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.chkPrayer.ForeColor = System.Drawing.Color.White;
-            this.chkPrayer.Location = new System.Drawing.Point(46, 226);
+            this.chkPrayer.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(28)))), ((int)(((byte)(31)))));
+            this.chkPrayer.Location = new System.Drawing.Point(62, 226);
             this.chkPrayer.Name = "chkPrayer";
             this.chkPrayer.Size = new System.Drawing.Size(74, 19);
             this.chkPrayer.TabIndex = 64;
@@ -122,8 +122,8 @@
             // 
             this.chkSelectAll.AutoSize = true;
             this.chkSelectAll.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.chkSelectAll.ForeColor = System.Drawing.Color.White;
-            this.chkSelectAll.Location = new System.Drawing.Point(46, 49);
+            this.chkSelectAll.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(28)))), ((int)(((byte)(31)))));
+            this.chkSelectAll.Location = new System.Drawing.Point(62, 49);
             this.chkSelectAll.Name = "chkSelectAll";
             this.chkSelectAll.Size = new System.Drawing.Size(103, 19);
             this.chkSelectAll.TabIndex = 63;
@@ -134,8 +134,8 @@
             // 
             this.chkHymn.AutoSize = true;
             this.chkHymn.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.chkHymn.ForeColor = System.Drawing.Color.White;
-            this.chkHymn.Location = new System.Drawing.Point(46, 196);
+            this.chkHymn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(28)))), ((int)(((byte)(31)))));
+            this.chkHymn.Location = new System.Drawing.Point(62, 196);
             this.chkHymn.Name = "chkHymn";
             this.chkHymn.Size = new System.Drawing.Size(57, 19);
             this.chkHymn.TabIndex = 62;
@@ -146,8 +146,8 @@
             // 
             this.chkWorshipPraise.AutoSize = true;
             this.chkWorshipPraise.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.chkWorshipPraise.ForeColor = System.Drawing.Color.White;
-            this.chkWorshipPraise.Location = new System.Drawing.Point(46, 138);
+            this.chkWorshipPraise.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(28)))), ((int)(((byte)(31)))));
+            this.chkWorshipPraise.Location = new System.Drawing.Point(62, 138);
             this.chkWorshipPraise.Name = "chkWorshipPraise";
             this.chkWorshipPraise.Size = new System.Drawing.Size(57, 19);
             this.chkWorshipPraise.TabIndex = 61;
@@ -158,7 +158,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label5.ForeColor = System.Drawing.Color.White;
+            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(28)))), ((int)(((byte)(31)))));
             this.label5.Location = new System.Drawing.Point(43, 18);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(215, 15);
@@ -167,12 +167,12 @@
             // 
             // txtPrayer
             // 
-            this.txtPrayer.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(28)))), ((int)(((byte)(31)))));
+            this.txtPrayer.BackColor = System.Drawing.Color.White;
             this.txtPrayer.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtPrayer.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.txtPrayer.ForeColor = System.Drawing.Color.White;
+            this.txtPrayer.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(28)))), ((int)(((byte)(31)))));
             this.txtPrayer.ImeMode = System.Windows.Forms.ImeMode.Hangul;
-            this.txtPrayer.Location = new System.Drawing.Point(142, 224);
+            this.txtPrayer.Location = new System.Drawing.Point(158, 224);
             this.txtPrayer.Name = "txtPrayer";
             this.txtPrayer.Size = new System.Drawing.Size(122, 23);
             this.txtPrayer.TabIndex = 3;
@@ -180,11 +180,11 @@
             // 
             // txtHymn
             // 
-            this.txtHymn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(28)))), ((int)(((byte)(31)))));
+            this.txtHymn.BackColor = System.Drawing.Color.White;
             this.txtHymn.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtHymn.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.txtHymn.ForeColor = System.Drawing.Color.White;
-            this.txtHymn.Location = new System.Drawing.Point(142, 195);
+            this.txtHymn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(28)))), ((int)(((byte)(31)))));
+            this.txtHymn.Location = new System.Drawing.Point(158, 195);
             this.txtHymn.MaxLength = 3;
             this.txtHymn.Name = "txtHymn";
             this.txtHymn.Size = new System.Drawing.Size(244, 23);
@@ -193,11 +193,11 @@
             // 
             // txtWorshipPraise
             // 
-            this.txtWorshipPraise.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(28)))), ((int)(((byte)(31)))));
+            this.txtWorshipPraise.BackColor = System.Drawing.Color.White;
             this.txtWorshipPraise.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtWorshipPraise.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.txtWorshipPraise.ForeColor = System.Drawing.Color.White;
-            this.txtWorshipPraise.Location = new System.Drawing.Point(142, 137);
+            this.txtWorshipPraise.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(28)))), ((int)(((byte)(31)))));
+            this.txtWorshipPraise.Location = new System.Drawing.Point(158, 137);
             this.txtWorshipPraise.MaxLength = 3;
             this.txtWorshipPraise.Name = "txtWorshipPraise";
             this.txtWorshipPraise.Size = new System.Drawing.Size(244, 23);
@@ -206,21 +206,20 @@
             // 
             // cboChurchPosition
             // 
-            this.cboChurchPosition.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(28)))), ((int)(((byte)(31)))));
+            this.cboChurchPosition.BackColor = System.Drawing.Color.White;
             this.cboChurchPosition.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cboChurchPosition.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cboChurchPosition.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.cboChurchPosition.ForeColor = System.Drawing.Color.White;
+            this.cboChurchPosition.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(28)))), ((int)(((byte)(31)))));
             this.cboChurchPosition.FormattingEnabled = true;
             this.cboChurchPosition.ImeMode = System.Windows.Forms.ImeMode.Hangul;
-            this.cboChurchPosition.Location = new System.Drawing.Point(264, 224);
+            this.cboChurchPosition.Location = new System.Drawing.Point(280, 224);
             this.cboChurchPosition.Name = "cboChurchPosition";
             this.cboChurchPosition.Size = new System.Drawing.Size(122, 23);
             this.cboChurchPosition.TabIndex = 10;
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(28)))), ((int)(((byte)(31)))));
+            this.panel1.BackColor = System.Drawing.Color.White;
             this.panel1.Controls.Add(this.chkFrequentlyUsedItems);
             this.panel1.Controls.Add(this.chkpreparationScreen);
             this.panel1.Controls.Add(this.chkCreed);
@@ -237,12 +236,25 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(492, 267);
+            this.panel1.Size = new System.Drawing.Size(465, 267);
             this.panel1.TabIndex = 62;
+            // 
+            // chkFrequentlyUsedItems
+            // 
+            this.chkFrequentlyUsedItems.AutoSize = true;
+            this.chkFrequentlyUsedItems.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.chkFrequentlyUsedItems.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(28)))), ((int)(((byte)(31)))));
+            this.chkFrequentlyUsedItems.Location = new System.Drawing.Point(224, 49);
+            this.chkFrequentlyUsedItems.Name = "chkFrequentlyUsedItems";
+            this.chkFrequentlyUsedItems.Size = new System.Drawing.Size(134, 19);
+            this.chkFrequentlyUsedItems.TabIndex = 69;
+            this.chkFrequentlyUsedItems.Text = "자주 쓰는 항목 선택";
+            this.chkFrequentlyUsedItems.UseVisualStyleBackColor = true;
+            this.chkFrequentlyUsedItems.CheckedChanged += new System.EventHandler(this.chkFrequentlyUsedItems_CheckedChanged);
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(28)))), ((int)(((byte)(31)))));
+            this.panel2.BackColor = System.Drawing.Color.White;
             this.panel2.Controls.Add(this.chkBibleReading);
             this.panel2.Controls.Add(this.txtCurrentBibleReading);
             this.panel2.Controls.Add(this.txtCurrentSearch);
@@ -261,15 +273,15 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 267);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(492, 144);
+            this.panel2.Size = new System.Drawing.Size(465, 144);
             this.panel2.TabIndex = 63;
             // 
             // chkBibleReading
             // 
             this.chkBibleReading.AutoSize = true;
             this.chkBibleReading.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.chkBibleReading.ForeColor = System.Drawing.Color.White;
-            this.chkBibleReading.Location = new System.Drawing.Point(46, 9);
+            this.chkBibleReading.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(28)))), ((int)(((byte)(31)))));
+            this.chkBibleReading.Location = new System.Drawing.Point(62, 9);
             this.chkBibleReading.Name = "chkBibleReading";
             this.chkBibleReading.Size = new System.Drawing.Size(74, 19);
             this.chkBibleReading.TabIndex = 66;
@@ -278,23 +290,23 @@
             // 
             // txtCurrentBibleReading
             // 
-            this.txtCurrentBibleReading.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(28)))), ((int)(((byte)(31)))));
+            this.txtCurrentBibleReading.BackColor = System.Drawing.Color.White;
             this.txtCurrentBibleReading.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtCurrentBibleReading.Enabled = false;
             this.txtCurrentBibleReading.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.txtCurrentBibleReading.ForeColor = System.Drawing.Color.White;
-            this.txtCurrentBibleReading.Location = new System.Drawing.Point(142, 92);
+            this.txtCurrentBibleReading.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(28)))), ((int)(((byte)(31)))));
+            this.txtCurrentBibleReading.Location = new System.Drawing.Point(158, 92);
             this.txtCurrentBibleReading.Name = "txtCurrentBibleReading";
             this.txtCurrentBibleReading.Size = new System.Drawing.Size(244, 23);
             this.txtCurrentBibleReading.TabIndex = 64;
             // 
             // txtCurrentSearch
             // 
-            this.txtCurrentSearch.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(28)))), ((int)(((byte)(31)))));
+            this.txtCurrentSearch.BackColor = System.Drawing.Color.White;
             this.txtCurrentSearch.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtCurrentSearch.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.txtCurrentSearch.ForeColor = System.Drawing.Color.White;
-            this.txtCurrentSearch.Location = new System.Drawing.Point(56, 92);
+            this.txtCurrentSearch.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(28)))), ((int)(((byte)(31)))));
+            this.txtCurrentSearch.Location = new System.Drawing.Point(72, 92);
             this.txtCurrentSearch.Name = "txtCurrentSearch";
             this.txtCurrentSearch.Size = new System.Drawing.Size(79, 23);
             this.txtCurrentSearch.TabIndex = 65;
@@ -305,7 +317,7 @@
             this.btnAdd.FlatAppearance.BorderSize = 0;
             this.btnAdd.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnAdd.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.btnAdd.Location = new System.Drawing.Point(317, 63);
+            this.btnAdd.Location = new System.Drawing.Point(333, 63);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(70, 23);
             this.btnAdd.TabIndex = 63;
@@ -316,14 +328,13 @@
             // 
             this.cboBookName.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
             this.cboBookName.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.cboBookName.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(28)))), ((int)(((byte)(31)))));
+            this.cboBookName.BackColor = System.Drawing.Color.White;
             this.cboBookName.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cboBookName.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cboBookName.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.cboBookName.ForeColor = System.Drawing.Color.White;
+            this.cboBookName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(28)))), ((int)(((byte)(31)))));
             this.cboBookName.FormattingEnabled = true;
             this.cboBookName.ImeMode = System.Windows.Forms.ImeMode.Hangul;
-            this.cboBookName.Location = new System.Drawing.Point(142, 7);
+            this.cboBookName.Location = new System.Drawing.Point(158, 7);
             this.cboBookName.Name = "cboBookName";
             this.cboBookName.Size = new System.Drawing.Size(244, 23);
             this.cboBookName.TabIndex = 13;
@@ -332,8 +343,8 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(229, 40);
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(28)))), ((int)(((byte)(31)))));
+            this.label1.Location = new System.Drawing.Point(245, 40);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(19, 15);
             this.label1.TabIndex = 32;
@@ -343,8 +354,8 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(291, 40);
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(28)))), ((int)(((byte)(31)))));
+            this.label2.Location = new System.Drawing.Point(307, 40);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(19, 15);
             this.label2.TabIndex = 33;
@@ -352,11 +363,11 @@
             // 
             // txtStartChapter
             // 
-            this.txtStartChapter.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(28)))), ((int)(((byte)(31)))));
+            this.txtStartChapter.BackColor = System.Drawing.Color.White;
             this.txtStartChapter.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtStartChapter.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.txtStartChapter.ForeColor = System.Drawing.Color.White;
-            this.txtStartChapter.Location = new System.Drawing.Point(192, 36);
+            this.txtStartChapter.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(28)))), ((int)(((byte)(31)))));
+            this.txtStartChapter.Location = new System.Drawing.Point(208, 36);
             this.txtStartChapter.MaxLength = 3;
             this.txtStartChapter.Name = "txtStartChapter";
             this.txtStartChapter.Size = new System.Drawing.Size(37, 23);
@@ -365,11 +376,11 @@
             // 
             // txtStartVerse
             // 
-            this.txtStartVerse.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(28)))), ((int)(((byte)(31)))));
+            this.txtStartVerse.BackColor = System.Drawing.Color.White;
             this.txtStartVerse.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtStartVerse.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.txtStartVerse.ForeColor = System.Drawing.Color.White;
-            this.txtStartVerse.Location = new System.Drawing.Point(251, 36);
+            this.txtStartVerse.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(28)))), ((int)(((byte)(31)))));
+            this.txtStartVerse.Location = new System.Drawing.Point(267, 36);
             this.txtStartVerse.MaxLength = 3;
             this.txtStartVerse.Name = "txtStartVerse";
             this.txtStartVerse.Size = new System.Drawing.Size(37, 23);
@@ -380,8 +391,8 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(229, 67);
+            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(28)))), ((int)(((byte)(31)))));
+            this.label4.Location = new System.Drawing.Point(245, 67);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(19, 15);
             this.label4.TabIndex = 36;
@@ -391,8 +402,8 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(291, 67);
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(28)))), ((int)(((byte)(31)))));
+            this.label3.Location = new System.Drawing.Point(307, 67);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(19, 15);
             this.label3.TabIndex = 37;
@@ -400,11 +411,11 @@
             // 
             // txtEndChapter
             // 
-            this.txtEndChapter.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(28)))), ((int)(((byte)(31)))));
+            this.txtEndChapter.BackColor = System.Drawing.Color.White;
             this.txtEndChapter.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtEndChapter.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.txtEndChapter.ForeColor = System.Drawing.Color.White;
-            this.txtEndChapter.Location = new System.Drawing.Point(192, 63);
+            this.txtEndChapter.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(28)))), ((int)(((byte)(31)))));
+            this.txtEndChapter.Location = new System.Drawing.Point(208, 63);
             this.txtEndChapter.MaxLength = 3;
             this.txtEndChapter.Name = "txtEndChapter";
             this.txtEndChapter.Size = new System.Drawing.Size(37, 23);
@@ -413,11 +424,11 @@
             // 
             // txtEndVerse
             // 
-            this.txtEndVerse.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(28)))), ((int)(((byte)(31)))));
+            this.txtEndVerse.BackColor = System.Drawing.Color.White;
             this.txtEndVerse.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtEndVerse.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.txtEndVerse.ForeColor = System.Drawing.Color.White;
-            this.txtEndVerse.Location = new System.Drawing.Point(251, 63);
+            this.txtEndVerse.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(28)))), ((int)(((byte)(31)))));
+            this.txtEndVerse.Location = new System.Drawing.Point(267, 63);
             this.txtEndVerse.MaxLength = 3;
             this.txtEndVerse.Name = "txtEndVerse";
             this.txtEndVerse.Size = new System.Drawing.Size(37, 23);
@@ -428,8 +439,8 @@
             // 
             this.lblStartVerse.AutoSize = true;
             this.lblStartVerse.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.lblStartVerse.ForeColor = System.Drawing.Color.White;
-            this.lblStartVerse.Location = new System.Drawing.Point(140, 40);
+            this.lblStartVerse.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(28)))), ((int)(((byte)(31)))));
+            this.lblStartVerse.Location = new System.Drawing.Point(156, 40);
             this.lblStartVerse.Name = "lblStartVerse";
             this.lblStartVerse.Size = new System.Drawing.Size(47, 15);
             this.lblStartVerse.TabIndex = 40;
@@ -439,8 +450,8 @@
             // 
             this.lblEndVerse.AutoSize = true;
             this.lblEndVerse.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.lblEndVerse.ForeColor = System.Drawing.Color.White;
-            this.lblEndVerse.Location = new System.Drawing.Point(140, 67);
+            this.lblEndVerse.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(28)))), ((int)(((byte)(31)))));
+            this.lblEndVerse.Location = new System.Drawing.Point(156, 67);
             this.lblEndVerse.Name = "lblEndVerse";
             this.lblEndVerse.Size = new System.Drawing.Size(35, 15);
             this.lblEndVerse.TabIndex = 41;
@@ -448,7 +459,7 @@
             // 
             // panel3
             // 
-            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(28)))), ((int)(((byte)(31)))));
+            this.panel3.BackColor = System.Drawing.Color.White;
             this.panel3.Controls.Add(this.txtClosingHymn);
             this.panel3.Controls.Add(this.txtOfferingHymn);
             this.panel3.Controls.Add(this.chkLordsPrayer);
@@ -463,16 +474,16 @@
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel3.Location = new System.Drawing.Point(0, 411);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(492, 271);
+            this.panel3.Size = new System.Drawing.Size(465, 271);
             this.panel3.TabIndex = 64;
             // 
             // txtClosingHymn
             // 
-            this.txtClosingHymn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(28)))), ((int)(((byte)(31)))));
+            this.txtClosingHymn.BackColor = System.Drawing.Color.White;
             this.txtClosingHymn.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtClosingHymn.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.txtClosingHymn.ForeColor = System.Drawing.Color.White;
-            this.txtClosingHymn.Location = new System.Drawing.Point(142, 104);
+            this.txtClosingHymn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(28)))), ((int)(((byte)(31)))));
+            this.txtClosingHymn.Location = new System.Drawing.Point(158, 104);
             this.txtClosingHymn.MaxLength = 3;
             this.txtClosingHymn.Name = "txtClosingHymn";
             this.txtClosingHymn.Size = new System.Drawing.Size(244, 23);
@@ -481,11 +492,11 @@
             // 
             // txtOfferingHymn
             // 
-            this.txtOfferingHymn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(28)))), ((int)(((byte)(31)))));
+            this.txtOfferingHymn.BackColor = System.Drawing.Color.White;
             this.txtOfferingHymn.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtOfferingHymn.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.txtOfferingHymn.ForeColor = System.Drawing.Color.White;
-            this.txtOfferingHymn.Location = new System.Drawing.Point(142, 75);
+            this.txtOfferingHymn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(28)))), ((int)(((byte)(31)))));
+            this.txtOfferingHymn.Location = new System.Drawing.Point(158, 75);
             this.txtOfferingHymn.MaxLength = 3;
             this.txtOfferingHymn.Name = "txtOfferingHymn";
             this.txtOfferingHymn.Size = new System.Drawing.Size(244, 23);
@@ -496,8 +507,8 @@
             // 
             this.chkLordsPrayer.AutoSize = true;
             this.chkLordsPrayer.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.chkLordsPrayer.ForeColor = System.Drawing.Color.White;
-            this.chkLordsPrayer.Location = new System.Drawing.Point(46, 134);
+            this.chkLordsPrayer.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(28)))), ((int)(((byte)(31)))));
+            this.chkLordsPrayer.Location = new System.Drawing.Point(62, 134);
             this.chkLordsPrayer.Name = "chkLordsPrayer";
             this.chkLordsPrayer.Size = new System.Drawing.Size(74, 19);
             this.chkLordsPrayer.TabIndex = 73;
@@ -508,8 +519,8 @@
             // 
             this.chkClosingHymn.AutoSize = true;
             this.chkClosingHymn.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.chkClosingHymn.ForeColor = System.Drawing.Color.White;
-            this.chkClosingHymn.Location = new System.Drawing.Point(46, 105);
+            this.chkClosingHymn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(28)))), ((int)(((byte)(31)))));
+            this.chkClosingHymn.Location = new System.Drawing.Point(62, 105);
             this.chkClosingHymn.Name = "chkClosingHymn";
             this.chkClosingHymn.Size = new System.Drawing.Size(57, 19);
             this.chkClosingHymn.TabIndex = 71;
@@ -520,8 +531,8 @@
             // 
             this.chkOfferingHymn.AutoSize = true;
             this.chkOfferingHymn.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.chkOfferingHymn.ForeColor = System.Drawing.Color.White;
-            this.chkOfferingHymn.Location = new System.Drawing.Point(46, 76);
+            this.chkOfferingHymn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(28)))), ((int)(((byte)(31)))));
+            this.chkOfferingHymn.Location = new System.Drawing.Point(62, 76);
             this.chkOfferingHymn.Name = "chkOfferingHymn";
             this.chkOfferingHymn.Size = new System.Drawing.Size(74, 19);
             this.chkOfferingHymn.TabIndex = 68;
@@ -531,21 +542,22 @@
             // chkChoirPraiseTitle
             // 
             this.chkChoirPraiseTitle.AutoSize = true;
+            this.chkChoirPraiseTitle.BackColor = System.Drawing.Color.White;
             this.chkChoirPraiseTitle.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.chkChoirPraiseTitle.ForeColor = System.Drawing.Color.White;
-            this.chkChoirPraiseTitle.Location = new System.Drawing.Point(46, 18);
+            this.chkChoirPraiseTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(28)))), ((int)(((byte)(31)))));
+            this.chkChoirPraiseTitle.Location = new System.Drawing.Point(62, 18);
             this.chkChoirPraiseTitle.Name = "chkChoirPraiseTitle";
             this.chkChoirPraiseTitle.Size = new System.Drawing.Size(90, 19);
             this.chkChoirPraiseTitle.TabIndex = 67;
             this.chkChoirPraiseTitle.Text = "성가대 제목";
-            this.chkChoirPraiseTitle.UseVisualStyleBackColor = true;
+            this.chkChoirPraiseTitle.UseVisualStyleBackColor = false;
             // 
             // chkChoirPraiseLyrics
             // 
             this.chkChoirPraiseLyrics.AutoSize = true;
             this.chkChoirPraiseLyrics.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.chkChoirPraiseLyrics.ForeColor = System.Drawing.Color.White;
-            this.chkChoirPraiseLyrics.Location = new System.Drawing.Point(46, 47);
+            this.chkChoirPraiseLyrics.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(28)))), ((int)(((byte)(31)))));
+            this.chkChoirPraiseLyrics.Location = new System.Drawing.Point(62, 47);
             this.chkChoirPraiseLyrics.Name = "chkChoirPraiseLyrics";
             this.chkChoirPraiseLyrics.Size = new System.Drawing.Size(90, 19);
             this.chkChoirPraiseLyrics.TabIndex = 45;
@@ -554,12 +566,12 @@
             // 
             // txtChoir
             // 
-            this.txtChoir.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(28)))), ((int)(((byte)(31)))));
+            this.txtChoir.BackColor = System.Drawing.Color.White;
             this.txtChoir.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtChoir.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.txtChoir.ForeColor = System.Drawing.Color.White;
+            this.txtChoir.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(28)))), ((int)(((byte)(31)))));
             this.txtChoir.ImeMode = System.Windows.Forms.ImeMode.Hangul;
-            this.txtChoir.Location = new System.Drawing.Point(142, 17);
+            this.txtChoir.Location = new System.Drawing.Point(158, 17);
             this.txtChoir.Name = "txtChoir";
             this.txtChoir.Size = new System.Drawing.Size(244, 23);
             this.txtChoir.TabIndex = 12;
@@ -570,7 +582,7 @@
             this.btnCreate.FlatAppearance.BorderSize = 0;
             this.btnCreate.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnCreate.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.btnCreate.Location = new System.Drawing.Point(317, 161);
+            this.btnCreate.Location = new System.Drawing.Point(333, 161);
             this.btnCreate.Name = "btnCreate";
             this.btnCreate.Size = new System.Drawing.Size(70, 23);
             this.btnCreate.TabIndex = 1;
@@ -579,11 +591,11 @@
             // 
             // txtBibleReading
             // 
-            this.txtBibleReading.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(28)))), ((int)(((byte)(31)))));
+            this.txtBibleReading.BackColor = System.Drawing.Color.White;
             this.txtBibleReading.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtBibleReading.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.txtBibleReading.ForeColor = System.Drawing.Color.White;
-            this.txtBibleReading.Location = new System.Drawing.Point(142, 190);
+            this.txtBibleReading.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(28)))), ((int)(((byte)(31)))));
+            this.txtBibleReading.Location = new System.Drawing.Point(158, 190);
             this.txtBibleReading.Name = "txtBibleReading";
             this.txtBibleReading.Size = new System.Drawing.Size(244, 23);
             this.txtBibleReading.TabIndex = 42;
@@ -591,38 +603,26 @@
             // 
             // txtSearch
             // 
-            this.txtSearch.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(28)))), ((int)(((byte)(31)))));
+            this.txtSearch.BackColor = System.Drawing.Color.White;
             this.txtSearch.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtSearch.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.txtSearch.ForeColor = System.Drawing.Color.White;
-            this.txtSearch.Location = new System.Drawing.Point(56, 190);
+            this.txtSearch.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(28)))), ((int)(((byte)(31)))));
+            this.txtSearch.Location = new System.Drawing.Point(72, 190);
             this.txtSearch.Name = "txtSearch";
             this.txtSearch.Size = new System.Drawing.Size(79, 23);
             this.txtSearch.TabIndex = 43;
             this.txtSearch.Visible = false;
             // 
-            // chkFrequentlyUsedItems
-            // 
-            this.chkFrequentlyUsedItems.AutoSize = true;
-            this.chkFrequentlyUsedItems.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.chkFrequentlyUsedItems.ForeColor = System.Drawing.Color.White;
-            this.chkFrequentlyUsedItems.Location = new System.Drawing.Point(208, 49);
-            this.chkFrequentlyUsedItems.Name = "chkFrequentlyUsedItems";
-            this.chkFrequentlyUsedItems.Size = new System.Drawing.Size(134, 19);
-            this.chkFrequentlyUsedItems.TabIndex = 69;
-            this.chkFrequentlyUsedItems.Text = "자주 쓰는 항목 선택";
-            this.chkFrequentlyUsedItems.UseVisualStyleBackColor = true;
-            this.chkFrequentlyUsedItems.CheckedChanged += new System.EventHandler(this.chkFrequentlyUsedItems_CheckedChanged);
-            // 
             // MorningWorshipPPT
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Name = "MorningWorshipPPT";
-            this.Size = new System.Drawing.Size(492, 682);
+            this.Size = new System.Drawing.Size(465, 682);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
