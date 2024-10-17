@@ -24,12 +24,12 @@ namespace Worship {
             btnAdd.Click += new EventHandler(btnAdd_Click);
             txtHymn.MouseDown += new MouseEventHandler(Event.ClearText);
             txtHymn.KeyPress += new KeyPressEventHandler(Event.AllowCertainCharacters);
-            btnNumberAdd.BackColor = Color.FromArgb(57, 57, 65);
-            btnNumberAdd.ForeColor = Color.White;
-            btnCreate.BackColor = Color.FromArgb(57, 57, 65);
-            btnCreate.ForeColor = Color.White;
-            btnAdd.BackColor = Color.FromArgb(57, 57, 65);
-            btnAdd.ForeColor = Color.White;
+            btnNumberAdd.BackColor = Color.FromArgb(231, 236, 245);
+            btnNumberAdd.ForeColor = Color.FromArgb(27, 28, 31);
+            btnCreate.BackColor = Color.FromArgb(231, 236, 245);
+            btnCreate.ForeColor = Color.FromArgb(27, 28, 31);
+            btnAdd.BackColor = Color.FromArgb(231, 236, 245);
+            btnAdd.ForeColor = Color.FromArgb(27, 28, 31);
         }
         FilePaths filePaths = new FilePaths();
         private void btnNumberAdd_Click(object sender, EventArgs e) {
@@ -77,8 +77,8 @@ namespace Worship {
             newTextBox.Size = new Size(244, 23);
             newTextBox.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             newTextBox.BorderStyle = BorderStyle.FixedSingle;
-            newTextBox.BackColor = Color.FromArgb(27, 28, 31);
-            newTextBox.ForeColor = Color.White;
+            newTextBox.BackColor = Color.White;
+            newTextBox.ForeColor = Color.FromArgb(27, 28, 31);
             panel2.Controls.Add(newTextBox);
             textBoxes.Add(newTextBox);
             textBoxLocationY += 26;
@@ -93,7 +93,7 @@ namespace Worship {
             newLabel.Text = labelCount + ".";
             newLabel.Location = new System.Drawing.Point(59, labelLocationY);
             newLabel.Size = new Size(17, 15);
-            newLabel.ForeColor = Color.White;
+            newLabel.ForeColor = Color.FromArgb(27, 28, 31);
             newLabel.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             panel2.Controls.Add(newLabel);
             labelLocationY += 26;
