@@ -97,7 +97,6 @@
             // 
             // panel2
             // 
-            this.panel2.AutoScroll = true;
             this.panel2.BackColor = System.Drawing.Color.White;
             this.panel2.Controls.Add(this.txtHymn);
             this.panel2.Controls.Add(this.lblOrder);
