@@ -27,7 +27,7 @@ namespace PptSlides {
             try {
                 PowerPoint.Presentation presentation = PptApp.Presentations.Open(filePath, MsoTriState.msoFalse, MsoTriState.msoFalse, MsoTriState.msoFalse);
                 foreach (PowerPoint.Slide slide in presentation.Slides) {
-                    PowerPoint.Slide copySlide = CopySlide(slide);
+                    PowerPoint.Slide copySlide = CopySlide(slide);                   
                     UpdateText(copySlide, firstText, combobox, secondText);
                 }
                 presentation.Close();
@@ -55,14 +55,20 @@ namespace PptSlides {
 
             string combineText = firstText;
 
-            if (comboBox != null && comboBox.SelectedItem != null) {
-                string selectChurchPosition = comboBox.SelectedItem.ToString();
-                combineText = $"{firstText} {selectChurchPosition}";
+            if (comboBox != null) {
+                if (comboBox.InvokeRequired) {
+                    comboBox.Invoke(new MethodInvoker(delegate {
+                        if (comboBox.SelectedItem != null) {
+                            string selectChurchPosition = comboBox.SelectedItem.ToString();
+                            combineText = $"{firstText} {selectChurchPosition}";
+                        }
+                    }));
+                } 
             }
 
-            if (!string.IsNullOrEmpty(secondText)) {
+            /*if (!string.IsNullOrEmpty(secondText)) {
                 combineText = $"{combineText} \n{secondText}";
-            }
+            }*/
 
             foreach (PowerPoint.Shape shape in slide.Shapes) {
                 if (shape.HasTextFrame == MsoTriState.msoTrue && shape.TextFrame.HasText == MsoTriState.msoTrue) {
@@ -131,16 +137,12 @@ namespace PptSlides {
         FilePaths filePaths = new FilePaths();
 
         public void AddVerse(string[] verses, string chapterVerse) {
-            string verseText = verses.First(line => line.StartsWith(chapterVerse));
+            string verseText = verses.FirstOrDefault(line => line.StartsWith(chapterVerse));
             if (verseText != null) {
                 CopyAndUpdateSlides(filePaths.VersePptFilePath, verseText);
             } else {
                 MessageBox.Show("장:절을 확인해주세요.");
             }
         }
-
-/*        public void LyricsSlides(string filepath, string textbox = null) {
-            CopyAndUpdateSlides(filepath, textbox);
-        }*/
     }
 }
