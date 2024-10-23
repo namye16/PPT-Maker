@@ -10,7 +10,7 @@ using System.Windows.Forms;
 namespace Worship {
     public static class LoadList {
         public static ComboBox cboChurchPosition { get; set; }
-        public static ComboBox cboFirstPassage { get; set; }
+        public static ComboBox cboBookName { get; set; }
         public static TextBox txtHymn { get; set; }
         public static TextBox txtWorshipPraise { get; set; }
         public static TextBox txtPrayer { get; set; }
@@ -97,7 +97,7 @@ namespace Worship {
                 }
             }
             if (chkBibleReading.Checked == true) {
-                if (cboFirstPassage.SelectedItem ==  null || txtStartChapter.Text == "" || txtStartVerse.Text == "") {
+                if (cboBookName.SelectedItem ==  null || txtStartChapter.Text == "" || txtStartVerse.Text == "") {
                     Message.Add("본문을 선택해 주세요");
                 }
             }
