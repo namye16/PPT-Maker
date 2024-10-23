@@ -26,6 +26,7 @@ namespace Worship
         public string OpeningHymnPptFilePath { get; set; }
         public string OfferingHymnPptFilePath { get; set; }
         public string ClosingHymnPptFilePath { get; set; }
+        public string finalPptFilePath { get; set; }
         public FilePaths()
         {
             MainPptFilePath = "C:\\WorshipPPT\\Main.pptx";
@@ -44,7 +45,9 @@ namespace Worship
             BibleTxtFolderFilePath = "C:\\WorshipPPT\\Bible";
             ChurchPositionTxtFilePath = "C:\\WorshipPPT\\ChurchPosition.txt";
             selectFirstVerseTxtFilePath  = "C:\\WorshipPPT\\Bible2\\{selectFirstVerse}.txt";
-            selectSecondVerseTxtFilePath  = "C:\\WorshipPPT\\Bible2\\{selectSecondVerse}.txt"
+            selectSecondVerseTxtFilePath  = "C:\\WorshipPPT\\Bible2\\{selectSecondVerse}.txt";
+
+            finalPptFilePath = "C:\\Users\\admin\\Desktop\\오전예배.ppt";
 ;        }        
     }
 }
